@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "253529392620",
-    "firebase_url": "https://commitmanager-38493.firebaseio.com",
-    "project_id": "commitmanager-38493",
-    "storage_bucket": "commitmanager-38493.appspot.com"
+    "project_number": "279317106777",
+    "firebase_url": "https://commitmanagerapp.firebaseio.com",
+    "project_id": "commitmanagerapp",
+    "storage_bucket": "commitmanagerapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:253529392620:android:eaed85773cb4dbbc9b6cc9",
+        "mobilesdk_app_id": "1:279317106777:android:8b23d1c7ef8822db276148",
         "android_client_info": {
           "package_name": "com.example.commitmanager"
         }
       },
       "oauth_client": [
         {
-          "client_id": "253529392620-dpks802oe99c300ocfqdkituhvvdfl2v.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.commitmanager",
-            "certificate_hash": "97cf9de9c051eefe52f33e3f9d65d5f7b5cdb539"
-          }
-        },
-        {
-          "client_id": "253529392620-h8fikkmj3f0bcu6dd92o3ccl1a393pv9.apps.googleusercontent.com",
+          "client_id": "279317106777-0g0olbvok42qa8sj7m2iovaqlq41hqi2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCi7gyJxrenZLxCNuITM59CgCx0URdSz1A"
+          "current_key": "AIzaSyA3NVCmTTlSt1GqAQGHpYLuQ6buk26mqrg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "253529392620-h8fikkmj3f0bcu6dd92o3ccl1a393pv9.apps.googleusercontent.com",
+              "client_id": "279317106777-0g0olbvok42qa8sj7m2iovaqlq41hqi2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
