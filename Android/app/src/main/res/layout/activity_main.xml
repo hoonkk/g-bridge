@@ -9,8 +9,9 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
             android:layout_gravity="center"
             android:gravity="center"
             android:src="@drawable/github"
@@ -21,6 +22,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="커밋매니저"
+            android:fontFamily="@font/app_title"
             android:textSize="35dp"
             android:textColor="#000000"
             />
@@ -29,6 +31,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:gravity="center"
+            android:fontFamily="@font/app_title"
             android:text="당신의 Github 잔디밭을 관리해보세요."
             android:textSize="20dp"
             android:textColor="#000000"
@@ -54,7 +57,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:gravity="center"
-            android:text="종료할래요"
+            android:text="다음에봐요"
             android:textSize="20dp"
             android:textColor="#FFFFFF"
             android:background="#000000"
