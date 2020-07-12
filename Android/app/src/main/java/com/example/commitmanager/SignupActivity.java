@@ -9,28 +9,23 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.commitmanager.R;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class SignupActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnStart, btnExit;
+    Button btnNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_welcome);
 
-        btnStart =(Button)findViewById(R.id.btnStart);
-        btnExit =(Button)findViewById(R.id.btnExit);
-        btnStart.setOnClickListener((View.OnClickListener) this);
-        btnExit.setOnClickListener((View.OnClickListener) this);
+//        btnNext =(Button)findViewById(R.id.btnNext);
+//        btnNext.setOnClickListener((View.OnClickListener) this);
     }
 
     public void onClick(View v) {
-        if(v.getId()==R.id.btnStart) {
+        if(v.getId()==R.id.btnNext) {
             Intent intent = new Intent(getApplicationContext(), SignupActivity.class);
             startActivity(intent);
-        }
-        else { // 종료 버튼 누를 시
-            finish();
         }
     }
 }
