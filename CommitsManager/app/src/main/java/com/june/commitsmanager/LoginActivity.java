@@ -1,5 +1,6 @@
 package com.june.commitsmanager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -48,7 +49,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 userInfo = (Map<String, Map<String, Object>>) dataSnapshot.getValue();
-                txtWarning.setText(userInfo.toString());
             }
 
             @Override
@@ -70,8 +70,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 dataPw = dataPw.replace("pw=", "");
 
                 if(pw.equals(dataPw)) {// 비밀번호를 올바르게 입력했다면
-                    String msg = "정상 로그인 되었습니다.";
-                    Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG).show();
+                    Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
+                    intent.putExtra("id", id);
+                    startActivity(intent);
+
+
                 } else { //일치하지 않는다면
                     txtWarning.setText("비밀번호를 잘못 입력했어요.");
                 }

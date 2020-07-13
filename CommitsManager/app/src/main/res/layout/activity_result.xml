@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cstLyWelcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="데이터를 받아오고 있어요 . . . "
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/app_title"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            />
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_marginTop="50dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/loading"
+
+            />
+        <TextView
+            android:id="@+id/txtFollow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="팔로워 :  팔로잉 : "
+            android:fontFamily="@font/content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/txtCommit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="오늘의 커밋 내역"
+            android:fontFamily="@font/content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="40sp"
+        />
+        <TextView
+            android:id="@+id/txtCommitMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="오늘의 커밋이 확인되지 않았어요.\n저희를 잊으신 건 아니겠죠? ㅠ ㅠ"
+            android:textColor="#007a00"
+            android:fontFamily="@font/content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25sp"
+        />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="돌아가기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
