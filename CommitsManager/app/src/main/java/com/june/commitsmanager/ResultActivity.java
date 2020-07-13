@@ -50,7 +50,6 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
 
     // 리눅스에 올라간 서버 url
     private final String BASE_URL = "http://ec2-18-223-112-230.us-east-2.compute.amazonaws.com:3001";
-    private final String token = "token 66b30f24b6828c5728f64b9b68ff4ee8ddc0e128";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
