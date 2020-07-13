@@ -1,6 +1,5 @@
 package com.june.commitsmanager;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,7 +15,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.HashMap;
 import java.util.Map;
 
 //import java.util.Currency;
@@ -59,7 +57,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         });
     }
     public void onClick(View v) {
-        if(v.getId()==R.id.btnLogin) { // validation
+        if(v.getId()== R.id.btnLogin) { // validation
             String id = edtId.getText().toString();
             String pw = edtPw.getText().toString();
 

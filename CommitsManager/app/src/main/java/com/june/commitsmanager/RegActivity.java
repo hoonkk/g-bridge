@@ -48,11 +48,8 @@ public class RegActivity extends AppCompatActivity implements View.OnClickListen
         conditionRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-<<<<<<< HEAD
 //                String text = dataSnapshot.getValue(String.class);
 //                txtNotice.setText(text);
-=======
->>>>>>> 88ad8a401bcd9d26346e2a9d3332752c8c3843ce
             }
 
             @Override
@@ -65,34 +62,23 @@ public class RegActivity extends AppCompatActivity implements View.OnClickListen
 
 
     public void onClick(View v) {
-        if(v.getId()==R.id.btnSubmit) { // validation
+        if(v.getId()== R.id.btnSubmit) { // validation
             if (!edtPw2.getText().toString().equals(edtPw1.getText().toString())) {
                 txtNotice.setText("비밀번호가 일치하지 않아요. 다시 입력해주세요.");
             }
             else {
                 String msg = "가입이 완료되었습니다";
                 Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG).show();
-<<<<<<< HEAD
-=======
-
->>>>>>> 88ad8a401bcd9d26346e2a9d3332752c8c3843ce
                 HashMap<String, Object> childUpdates = null;
                 Map<String, Object> m1 = new HashMap<String, Object>();
                 String id = edtId.getText().toString();
                 String pw = edtPw2.getText().toString();
                 m1.put("pw", pw);
                 childUpdates = new HashMap<>();
-<<<<<<< HEAD
                 childUpdates.put("/User_info/" + id, m1);
                 mRootRef.updateChildren(childUpdates);
 
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-=======
-
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                childUpdates.put("/User_info/" + id, m1);
-                mRootRef.updateChildren(childUpdates);
->>>>>>> 88ad8a401bcd9d26346e2a9d3332752c8c3843ce
                 startActivity(intent);
             }
         }
