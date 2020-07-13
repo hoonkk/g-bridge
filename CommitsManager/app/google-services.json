@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "747238340580",
+    "firebase_url": "https://commitsmanager.firebaseio.com",
+    "project_id": "commitsmanager",
+    "storage_bucket": "commitsmanager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747238340580:android:75bc843cd85fdc9e2ef9f1",
+        "android_client_info": {
+          "package_name": "com.june.commitsmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747238340580-1i28parl9hg47e2fdfdnbe13maeo85re.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.june.commitsmanager",
+            "certificate_hash": "97cf9de9c051eefe52f33e3f9d65d5f7b5cdb539"
+          }
+        },
+        {
+          "client_id": "747238340580-6a41pvs1h7co4s6kn62p2656scmlka8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByhDSKdbmzE1Pp1PekbQJhzY-96pvV3Zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747238340580-6a41pvs1h7co4s6kn62p2656scmlka8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
